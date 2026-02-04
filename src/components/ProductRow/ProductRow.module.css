@@ -1,0 +1,35 @@
+.productItem {
+    list-style: none;
+}
+
+.productCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+    transition: box-shadow 0.2s;
+}
+
+.productCard:hover,
+.productCard:focus-within {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.125rem;
+    color: #333;
+}
+
+.description {
+    margin: 0 0 0.75rem 0;
+    color: #585858; /* 7.11 contrast ratio */
+    font-size: 0.9375rem;
+    line-height: 1.5;
+}
+
+.price {
+    font-weight: 600;
+    color: #2c5282;/* 7.96 contrast ratio */
+    font-size: 1.125rem;
+}
